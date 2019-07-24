@@ -1,0 +1,35 @@
+LESSON 17: REQUIREMENTS FOR THE BULL COW GAME
+
+This exercise is proposed at 4:45 in Lecture 17 (Archived version of the course)
+
+
+Rules of the game:
+	game has a preset isogram
+	player tries to guess it
+	game compared the guess to the isogram, and outputs how many bulls and cows the player scored
+	(bull = right letter at right place, cow = right letter at wrong place)
+	player wins if he/she guesses the isogram correctly within max. num. of trials
+
+What problem does this game solve?
+	for us in the course, it will be an exercise to learn C++ and coding logics
+	it can be some fun! -> word puzzle/mental challenge
+
+Requirements for the Game:
+	input: player guesses are just plain text, entered in the console
+		(should check if it has the correct length and only letters)
+	task: compare input guess to isogram, calculate how many cows and bulls, display
+	task: keep track of how many guesses are left
+	output: player guesses isogram within maxtries (win) or fails to do so (lose)
+	task: ask if player wants to play again, and restart game or quit
+	assets: ascii art, text display and input (console)
+	
+Program architecture:
+	this will only be a C++ code, with several functions and routine	
+	
+Future ideas (the NO list):
+	player chooses maxtries and word length
+	game draws isogram from a dictionary/list
+	key level checking (would require game not running in a console)
+	trade turn for hint
+	
+	
